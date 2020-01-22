@@ -1,56 +1,91 @@
-html{
-    margin: 0px;
-    padding: 0px;
-    background-size: cover;
-    /*background-image: url("image/dc 1.jpg");*/
-}
-main{
-    background-color: rgb(232,235,239,0.3);
-    height:100%;
-    display:flex;
-    justify-content: space-between;
-}
-.column{
-    padding:20px;
-    margin;10px,10px,10px,0px;
-    display:flex;
-}
-img{
-    margin:0,0,0,0;
-    box-sizing:border-box;
-    height:auto;
-    width:auto;  
-}
-.message{
-    margin:20px auto 0 auto
-    font-family:cursive;
-    font-size: 1.3em;
-    text-align:center
-}
-h1{
-    margin:0;
-     color:blueviolet;
-     -webkit-margin-before: 0;
- }
-header{
-    height:200px;
-    background-image:url('image/marvel\ vs\ dc\ logo.jpeg')
-}
-#content-1 a:hover{
- color:rgb(250,255,0)
- font-weight:900;
-}
-/*style.css*/
 body{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    margin:50px auto 50px auto;
-    width:70%;
+	color: black;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color:white;
+	font-size: 20px;
 }
-#content-1{
-    background-color: rgb(81, 130, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 200px;
+#header{
+	text-align: center;
+	background-size: cover;
+	font-size: 80px;
+	border: 2px dashed rgb(15, 146, 233);
+	background-image:url("/home/kelvin/projectss/image/space.jpeg" );
+ } 
+ #header>h1{
+	 color: darkblue;
+ }  
+ #home>h2{
+	 color: darkblue;
+ }
+ #films>h3{
+	 color: darkblue;
+ }
+ .section-4 > h3{
+	 color: darkblue;
+ }
+ caption{
+	 color: darkblue;
+ }
+#home p{
+ max-width: 60%;
+ justify-content: space-evenly;
+}
+ .section-1 {
+	 display: flex;
+ }
+ .section-2{
+	 display: flex;
+ }
+ ul{
+	 list-style-type:square; 
+	 list-style-position:inside;
+	 list-style-image:none;
+ }
+ table{
+	 float: center;
+ }
+table, th, td{
+     border: 2px solid rgb(11, 44, 231);
+     border-collapse: collapse;
+     text-align: center;
+}
+#contacts img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#contacts a{
+    text-decoration: none;
+}
+#contacts img:hover{
+	opacity: 0.8;
+}
+.section-4{
+	float:center;
+}
+.copyright{
+	font-size: 15pt;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: grey; 
+}
+nav{
+	float: right;
+}
+nav>a{
+	text-decoration: none;
+	background-color: rgb(22, 161, 216);
+    justify-content:space-between;
+	height:200px;
+	color: black;
+	text-transform: uppercase;
+	padding: 20px;
+}
+#side{
+	float: right;
+	padding: 2px;
+}
+.section-3{
+	display: flex;
+}
