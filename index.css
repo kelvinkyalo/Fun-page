@@ -4,14 +4,8 @@ body{
 	background-size: contain;
 	background-color:white;
 	font-size: 20px;
+	font-family: 'Patrick Hand', cursive;
 }
-#header{
-	text-align: center;
-	background-size: cover;
-	font-size: 80px;
-	border: 2px dashed rgb(15, 146, 233);
-	background-image:url("/home/kelvin/projectss/image/space.jpeg" );
- } 
  #header>h1{
 	 color: darkblue;
  }  
@@ -75,12 +69,12 @@ nav{
 }
 nav>a{
 	text-decoration: none;
-	background-color: rgb(22, 161, 216);
-    justify-content:space-between;
+	justify-content:space-between;
+	background-color: rgb(191, 211, 219);
 	height:200px;
 	color: black;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 30px;
 }
 #side{
 	float: right;
@@ -88,4 +82,10 @@ nav>a{
 }
 .section-3{
 	display: flex;
+}
+#head{
+	float: center;
+}
+.section-4{
+	text-align: center;
 }
